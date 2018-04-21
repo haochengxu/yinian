@@ -5,6 +5,6 @@ var indexRouter = require('./routes');
 
 app.use('/', indexRouter);
 
-app.listen(3000, function() {
-    console.log("node listening at 3000")
+app.listen(80, function() {
+    console.log("node listening at 80")
 });
